@@ -1,0 +1,31 @@
+body{
+	padding: 5%;
+}
+input[type=text]{
+	width: 50%;
+	margin: 3px;
+}
+.tx_json{
+	width: 82%;
+	height: 40%;
+}
+.content{
+	width: 80%;
+}
+.inputs{
+	border: 1px solid gray;
+	padding: 1%;
+	width: 100%;
+}
+#fileNameId{
+	width: 40%
+}
+.actions{
+	width: 81%;
+	height: 10%;
+	border: 1px solid gray;
+	padding: 1.2% 0.5% 0.2% 0.5%;
+}
+div{
+	margin-bottom: 1%;
+}

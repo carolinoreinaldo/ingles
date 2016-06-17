@@ -1,0 +1,47 @@
+<html>
+<html>
+<head>
+	<title>Gerador De JSON</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="js/gerador_gramatica.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/gerador_gramatica.css">
+</head>
+<body>
+	<div class="content">
+		<div class="inputs">
+			<label class="lbl">Question : </label><input type="text" class="question"><br/>
+			<label class="lbl">Option 1 : </label><input type="text" class="text1"><br/>
+			<label class="lbl">Option 2 : </label><input type="text" class="text2"><br/>
+			<label class="lbl">Option 3 : </label><input type="text" class="text3"><br/>
+			<label class="lbl">Option 4 : </label><input type="text" class="text4"><br/>
+			
+			<div class="radios">
+				<b><label class="lbl">Correct : </label></b>
+
+				<input type="radio" class="radio1" value="option1" name="options">
+				<label class="lbl">Option 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				
+				<input type="radio" class="radio2" value="option2" name="options">
+				<label class="lbl">Option 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				
+				<input type="radio" class="radio3" value="option3" name="options">
+				<label class="lbl">Option 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				
+				<input type="radio" class="radio4" value="option4" name="options">
+				<label class="lbl">Option 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</div>
+		</div>
+	</div>
+	<div class="actions">
+		<button class="btn_novo">Nova Entrada</button>
+		<button class="btn_gera">Gerar JSON</button>
+		<button class="" onclick="download()">Download=></button>
+		<label class="lbl"> <b>File Name : </b></label>
+		<input type="text" id="fileNameId"><br/>
+	</div>
+	
+	<div class="dv_json">
+		<textarea class="tx_json"></textarea>
+	</div>
+</body>
+</html>
